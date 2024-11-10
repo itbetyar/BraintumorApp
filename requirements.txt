@@ -1,4 +1,2 @@
-ultralytics
 streamlit
 Pillow
-opencv-python
