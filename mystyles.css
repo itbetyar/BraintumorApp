@@ -1,3 +1,21 @@
+.stApp {
+    margin-top: -3rem;
+    padding-top: 0px; /* Adjust as needed, or set to 0 for no margin */
+}
+
+.mylink {
+    font-size: 20px;
+}
+.mylink a {
+    font-size: 20px;
+    color: #92d0e5; 
+}
+.mylink a:hover {
+    color: #d7e5ea /* Optional: hover color */
+}
+
+
+
 .custom-text {
     padding: 30px;
     margin: 5px;
@@ -17,25 +35,32 @@
     border-radius: 10px;
 }
 
+.custom-text3 {
+    padding: 15px;
+    margin: 10px;
+    background-color: #262730;
+    color: #e6e2f1;
+    font-size: 16px;
+    border-radius: 10px;
+}
 
 /* Szoveg dobozok */
 .detect-text {
     padding: 15px;
-    margin: 2px;
-    margin-bottom: 10px;
+    margin: 10px;
     background-color: #362930;
     color: #e6e2f1;
     font-size: 18px;
     border-radius: 8px;
 }
 
+
 .detect-text-negativ {
     padding: 15px;
     margin: 2px;
-    margin-bottom: 10px;
     background-color: #26322b;
     color: #e6e2f1;
-    font-size: 18px;
+    font-size: 22px;
     border-radius: 8px;
 }
 
@@ -46,7 +71,7 @@
 .st-key-kisgomb3 button,
 .st-key-kisgomb4 button {
     padding: 2px 20px;
-    background-color: rgb(81, 46, 56);
+    background-color: rgb(50, 77, 88);
     border: none;
 }
 
@@ -61,12 +86,12 @@
 .st-key-kisgomb1 button:hover,
 .st-key-kisgomb2 button:hover, 
 .st-key-kisgomb3 button:hover{
-    background-color: rgb(100, 156, 163); 
+    background-color: rgb(86, 128, 144); 
     border: none;
 }
 
 
-/* Masik gomb */
+/* Masik kis gomb */
 .st-key-kisgombn5 button,
 .st-key-kisgombn6 button {
     padding: 2px 20px;
@@ -80,24 +105,22 @@
 }
 .st-key-kisgombn5 button p, 
 .st-key-kisgombn6 button p{
-    color: #d8e8ee;
+    color: #d8eeee;
     font-size: 14px;
 }
 
 /* Nagygomb */
 .st-key-nagygomb button {
     padding: 20px 30px;
-    background-color: rgb(48, 73, 76);
+    background-color: rgb(36, 77, 90);
     border: none;
 }
-
 .st-key-nagygomb button p{
-    color: #d8e8ee;
+    color: #e5eef2;
     font-size: 18px;
 }
-
 .st-key-nagygomb button:hover {
     padding: 20px 30px;
-    background-color: rgb(66, 100, 104);
+    background-color: rgb(24, 53, 64);
     border: none;
 }
