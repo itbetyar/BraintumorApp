@@ -1,5 +1,5 @@
 streamlit>=1.39.0
-ultralytics==8.0.79          # YOLO (Ultralytics) for object detection
+ultralytics          # YOLO (Ultralytics) for object detection
 Pillow               # For handling images
 matplotlib==3.8.0           # For custom bounding box plotting
 pathlib==1.0.1              # For managing file paths (typically inc
