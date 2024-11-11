@@ -1,6 +1,7 @@
-streamlit>=1.39.0
-ultralytics          # YOLO (Ultralytics) for object detection
-Pillow               # For handling images
-matplotlib==3.8.0           # For custom bounding box plotting
-pathlib==1.0.1              # For managing file paths (typically inc
-#opencv-python==4.7.0.68     # (Optional) For better image handling and pre/post-processing
+ultralytics==8.0.79
+opencv-python-headless==4.7.0.68
+streamlit==1.24.0
+Pillow==9.5.0
+matplotlib==3.8.0
+pathlib==1.0.1
+
