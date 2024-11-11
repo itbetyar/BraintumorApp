@@ -3,7 +3,6 @@
 import streamlit as st
 
 st.title("Ben Streamlit App")
-st.header("I am a Hedör!")
 st.subheader("I am a subheader!")
 
 st.text(" Ez egy sima **text**, mint ilyen a csillagok nem \"bold-olnak\" semmit")
