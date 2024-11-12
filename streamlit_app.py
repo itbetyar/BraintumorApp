@@ -1,6 +1,23 @@
 ################################################################
 ################################################################
 #     2024.11 - itbetyar.hu - Braintumor object detection
+
+# Minden, alábbi kód a Braintumor object detection
+#  - A.I. alapon működő agytumor detektálás projektben
+#  : © 2024 itbetyar.hu - Gyulai Bence Márton szellemi tulajdona.
+
+# A tartalom a Creative Commons Attribution 4.0 International License alatt van licencelve.
+# Ez lehetővé teszi a megosztást és a módosítást, amennyiben megfelelően
+#  hivatkozva van a forrás és minden változtatás jelezve van.
+
+# Ha a projektet bárhol bemutatja kérjük, hivatkozzon rá az alábbiak szerint.
+#  "A kód a Braintumor object detection - A.I. alapon működő agytumor 
+# detektálás projekt része melynek szerzője: © 2024 itbetyar.hu - Gyulai Bence Márton.
+
+# Hibák jelentéséhez, funkciók kéréséhez vagy további érdeklődésekhez kérjük,
+# vegye fel a kapcsolatot Gyulai Bence-vel a következő 
+# email címen: info[kukac]itbetyar[pont]hu
+
 ################################################################
 
 import streamlit as st
@@ -160,7 +177,7 @@ else:
 
 oszi2.button("Detektálás indítása", on_click=lambda: inferenc(image), key="nagygomb")
 
-
+st.write("Az alacsony kontraszttal rendelkező képeket a rendszer a könnyebb olvashatóság miatt elszínezheti, ez természetes része a szoftver működésének")
 
 
 # * #########################################################################
@@ -172,13 +189,19 @@ also1,also2,also3,also4 = st.columns([1,2,2,1])
 also2.image("imgs/aidev.webp", width=200)
 also3.markdown('<div class="mylink">Ha szeretnél hasonló applikációkat készíteni várunk <a href="https://itbetyar.hu/mesterseges-intelligencia-fejleszto-tanfolyam/" target="_blank">A.I. Developer tanfolyamainkon</a></div>', unsafe_allow_html=True)
 
+st.divider()
 
 st.markdown('### Leírás:', unsafe_allow_html=True)
-st.markdown('<div class="custom-text">Fenti minta egy <b>"proof of concept"</b> jellegű bemutató. Nem alkalmas diagnózis felállítására.</div>', unsafe_allow_html=True)
+st.markdown('<div class="custom-text">📢 Fenti minta egy <b>"proof of concept"</b> jellegű bemutató. Nem alkalmas diagnózis felállítására.</div>', unsafe_allow_html=True)
+
+st.markdown('')
 
 foot1,foot2,foot3,foot4 = st.columns([3,0.6,1,3])
 foot2.image("imgs/itb_logo.webp", width=38)
 foot3.markdown('<div class="mylink"><a href="https://itbetyar.hu" target="_blank">itbetyar.hu</a></div>', unsafe_allow_html=True)
 
+st.markdown('<div class="custom-text2">🏷️ Az alkalmazott tumor detektáló modell, nyilvános minta adathalmazon lett betanítva. <br> Nagyjából <b>~1000 darab agyi mri</b> felvétel alapján tanult, hatékonysága, megbízhatósága így <b>80%-os</b>. Produkciós azaz valódi orvosi diagnosztikára is alkalmassá tehető magasabb számú oktatókép segítségével.</div>', unsafe_allow_html=True)
 
-st.markdown('<div class="custom-text2">Az alkalmazott tumor detektáló modell, nyilvános minta adathalmazon lett betanítva, azaz <b>~1000 darab agyi mri</b> felvétel alapján tanult, hatékonysága így <b>80%-os</b>. Produkciós azaz valódi orvosi diagnosztikára is alkamassá tehető magasabb számú oktatókép segítségével.</div>', unsafe_allow_html=True)
+st.markdown('<div class="custom-text2">🎓 Ha te is szeretnél hasonló <b>A.I. szoftvereket</b> létrehozni, akkor várunk képzéseinken: <br> <a href="https://itbetyar.hu/mesterseges-intelligencia-fejleszto-tanfolyam/" target="_blank"><b>A.I. Developer tanfolyam</b></a></div>', unsafe_allow_html=True)
+
+st.markdown('<div class="custom-text2">🥼 Ha egészségügyi szakember vagy és érdekel a projekt, keress minket az info[kukac]itbetyar[pont]hu elérhetőségen!</div>', unsafe_allow_html=True)
