@@ -34,6 +34,12 @@
     font-size: 18px;
     border-radius: 10px;
 }
+.custom-text2 a {
+    color: #9be0e1; /* Change to your desired color */
+}
+.custom-text2 a:hover {
+    color: #ffffff; /* Change to a color for hover effect */
+}
 
 .custom-text3 {
     padding: 15px;
